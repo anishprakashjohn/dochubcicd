@@ -36,9 +36,7 @@ export class DealingDetails extends React.Component {
 
                   <button className="button" onClick={this.onNext}> Next </button>
                
-                   <Link className="list-item" to={`/edit/${this.props.dealing.id}`}>
-                        <button className="button"> Edit</button>
-                    </Link>
+                   
 
                   
                
@@ -72,4 +70,8 @@ export default connect(mapStateToProps)(DealingDetails);
 // <Link className="list-item" to={`/edit/${this.props.dealing.id}`}>
 // <button className="button"> Edit</button>
 //  </Link>
+
+// <Link className="list-item" to={`/edit/${this.props.dealing.id}`}>
+//                         <button className="button"> Edit</button>
+//                     </Link>
 
