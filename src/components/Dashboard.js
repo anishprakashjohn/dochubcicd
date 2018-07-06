@@ -5,7 +5,7 @@ import DashboardSubHeader from './DashboardSubHeader';
 
 const DashBoard = () => (
     <div>
-        <DashboardSubHeader />
+        
         <DealingListFilter />
         <DealingList />
     </div>
@@ -14,3 +14,5 @@ const DashBoard = () => (
 );
 
 export default DashBoard;
+
+// <DashboardSubHeader />

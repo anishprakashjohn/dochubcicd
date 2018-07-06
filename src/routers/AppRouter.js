@@ -12,7 +12,7 @@ const AppRouter = () => (
       <div>
         <Header />
         <Switch>
-        <Route path="/" component={List} exact={true} />
+        <Route path="/" component={DashBoard} exact={true} />
           <Route path="/list" component={DashBoard}  />
           <Route path="/create" component={CreateDealing} />
           <Route path='/view/:id' component = {DealingDetails}/>
