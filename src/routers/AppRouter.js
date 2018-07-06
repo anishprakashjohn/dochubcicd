@@ -13,7 +13,7 @@ const AppRouter = () => (
         <Header />
         <Switch>
         <Route path="/" component={DashBoard} exact={true} />
-          <Route path="/list" component={DashBoard}  />
+          
           <Route path="/create" component={CreateDealing} />
           <Route path='/view/:id' component = {DealingDetails}/>
           <Route path='/edit/:id' component = {EditDealing}/>
@@ -23,4 +23,6 @@ const AppRouter = () => (
   );
   
   export default AppRouter;
+
+  // <Route path="/list" component={DashBoard}  />
   
