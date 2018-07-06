@@ -7,7 +7,7 @@ const Header = () => (
       
       <div className="header__content">
       <Link className="header__title" to="/">
-        <h1 > LAND USE VICTORIA - Document Hub</h1>
+        <h1 > LAND USE VICTORIA - Document Hub Dealings</h1>
       </Link>
        
       </div>
